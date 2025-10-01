@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building web assets...\" && echo \"Web assets are in www directory\"",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "run:android": "npx cap run android",
+    "run:ios": "npx cap run ios",
+    "serve": "npx cap serve",
+    "clean": "npx cap clean",
+    "doctor": "npx cap doctor"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["capacitor", "mobile-app", "android", "ios", "jsg", "sparsh", "pune"],
+  "author": "JSG SPARSH Team",
+  "license": "MIT",
+  "description": "JSG SPARSH PUNE Mobile Application - A Capacitor-based mobile wrapper for the JSG SPARSH PUNE web application",
   "dependencies": {
     "@capacitor-community/http": "^1.4.1",
     "@capacitor/android": "^7.4.3",
