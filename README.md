@@ -1,4 +1,4 @@
-# JSG SPARSH PUNE Mobile App
+﻿# JSG SPARSH PUNE Mobile App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Capacitor](https://img.shields.io/badge/Capacitor-v7.4.3-blue.svg)](https://capacitorjs.com/)
@@ -143,7 +143,7 @@ The app configuration is managed in `capacitor.config.json`:
 ```json
 {
   "appId": "com.jsg.sparsh.pune",
-  "appName": "JSG SPARSH PUNE",
+  "appName": "JSG SPARSH Pune",
   "webDir": "www",
   "bundledWebRuntime": false,
   "server": {
@@ -188,7 +188,7 @@ npm test
 ### Android APK/AAB
 
 1. Open the project in Android Studio
-2. Go to **Build** ? **Generate Signed Bundle/APK**
+2. Go to **Build** → **Generate Signed Bundle/APK**
 3. Follow the signing process
 4. Choose between APK (for direct installation) or AAB (for Play Store)
 
@@ -196,7 +196,7 @@ npm test
 
 1. Open the project in Xcode
 2. Set the development team and signing certificates
-3. Archive the app (**Product** ? **Archive**)
+3. Archive the app (**Product** → **Archive**)
 4. Upload to App Store Connect via the Organizer
 
 ## Deployment
