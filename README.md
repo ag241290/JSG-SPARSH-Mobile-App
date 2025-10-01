@@ -130,7 +130,10 @@ JSG-SPARSH-Mobile-App/
 ?   ??? index.js
 ??? icons/                   # App icons
 ??? capacitor.config.json    # Capacitor configuration
-??? package.json            # Node.js dependencies
+??? package.json             # Node.js dependencies
+??? README.md                # Project documentation
+??? CONTRIBUTING.md          # Contributing guidelines
+??? .gitignore               # Git ignore rules
 ```
 
 ### Configuration
