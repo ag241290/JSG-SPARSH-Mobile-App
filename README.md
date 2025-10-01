@@ -113,27 +113,27 @@ npx cap sync
 
 ```
 JSG-SPARSH-Mobile-App/
-??? android/                 # Android native project
-?   ??? app/
-?   ?   ??? src/main/
-?   ?   ??? build.gradle
-?   ??? build.gradle
-??? ios/                     # iOS native project
-?   ??? App/
-?       ??? App/
-?       ??? App.xcodeproj
-??? www/                     # Web assets (built)
-?   ??? index.html
-?   ??? assets/
-??? web/                     # Web source files
-?   ??? index.html
-?   ??? index.js
-??? icons/                   # App icons
-??? capacitor.config.json    # Capacitor configuration
-??? package.json             # Node.js dependencies
-??? README.md                # Project documentation
-??? CONTRIBUTING.md          # Contributing guidelines
-??? .gitignore               # Git ignore rules
+  android/                   # Android native project
+    app/
+      src/main/
+      build.gradle
+    build.gradle
+  ios/                       # iOS native project
+    App/
+      App/
+      App.xcodeproj
+  www/                       # Web assets (built)
+    index.html
+    assets/
+  web/                       # Web source files
+    index.html
+    index.js
+  icons/                     # App icons
+  capacitor.config.json      # Capacitor configuration
+  package.json               # Node.js dependencies
+  README.md                  # Project documentation
+  CONTRIBUTING.md            # Contributing guidelines
+  .gitignore                 # Git ignore rules
 ```
 
 ### Configuration
