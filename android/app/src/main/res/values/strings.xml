@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">JSG SPARSH PUNE</string>
+    <string name="title_activity_main">JSG SPARSH PUNE</string>
+    <string name="package_name">com.jsg.sparsh.pune</string>
+    <string name="custom_url_scheme">com.jsg.sparsh.pune</string>
+</resources>

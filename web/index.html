@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSG SPARSH PUNE</title>
+</head>
+<body>
+  <h1 style="text-align:center; margin-top:50px;">Launching App...</h1>
+
+  <script>
+    // Open the Vercel site using Capacitor Browser
+    document.addEventListener('deviceready', async () => {
+      if (window.Capacitor) {
+        await Capacitor.Plugins.Browser.open({
+          url: 'https://jsg-sparsh-pune.vercel.app'
+        });
+      }
+    });
+  </script>
+</body>
+</html>

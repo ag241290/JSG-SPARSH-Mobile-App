@@ -1,0 +1,10 @@
+{
+  "appId": "com.jsg.sparsh.pune",
+  "appName": "JSG SPARSH PUNE",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://jsg-sparsh-pune.vercel.app",
+    "cleartext": false
+  }
+}
